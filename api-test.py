@@ -84,5 +84,5 @@ def delete_user_info_with_api(username):
     return "default"
 
 if __name__ == "__main__":
-    app.run(port=5001)
+    app.run()
     
