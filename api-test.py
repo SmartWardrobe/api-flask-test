@@ -6,6 +6,9 @@ import json
 
 app = Flask(__name__)
 
+@app.route("/")
+def hello():
+    return "api-testhttps://gardrop-api-test.herokuapp.com/"
 
 # Api'ye post istegi atiliyor, ionic'ten atiliyormus gibi.
 @app.route("/create_user")
