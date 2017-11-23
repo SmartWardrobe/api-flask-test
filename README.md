@@ -2,6 +2,7 @@
 Flask ile yazilan api-flask servisini test etmek icin olusturuldu.
 
 # Proje Yapisi
+[api](https://github.com/erginipekci7/api-flask)
 <p>[api.py](https://github.com/erginipekci7/api-flask) dosyasi api dir. "api-test.py" ise api'yi test eden dosyadir. "empty.py" dosyasi ise suanlik isimize lazim degil.Ama ilerde lazim olucak kodlar.</p>
 <p>2 ayri flask uygulamamizi ayaga kaldiriyoruz("api.py" ve "api-test.py" dosyalari). Ve api-test flask uygulamamiza istek atilir.</p>
 
