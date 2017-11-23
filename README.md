@@ -1,8 +1,8 @@
-# api-flask
-Flask ile yazilan Api(Web service).
+# api-flask-test
+Flask ile yazilan api-flask servisini test etmek icin olusturuldu.
 
 # Proje Yapisi
-<p>"api.py" dosyasi api dir. "api-test.py" ise api'yi test eden dosyadir. "empty.py" dosyasi ise suanlik isimize lazim degil.Ama ilerde lazim olucak kodlar.</p>
+<p>["api.py"] (https://github.com/erginipekci7/api-flask) dosyasi api dir. "api-test.py" ise api'yi test eden dosyadir. "empty.py" dosyasi ise suanlik isimize lazim degil.Ama ilerde lazim olucak kodlar.</p>
 <p>2 ayri flask uygulamamizi ayaga kaldiriyoruz("api.py" ve "api-test.py" dosyalari). Ve api-test flask uygulamamiza istek atilir.</p>
 
 # API - Routes 
@@ -17,19 +17,6 @@ Flask ile yazilan Api(Web service).
 
 ```DELETE  /api/user/:username ```
 
-# Kurulum - Api
-<p>Linux kullaniyorsan terminalle ulasip bu komutlari calistirmalisin, MacOs ayni sekil. Windows icin bash <a href="https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/">yukle</a></p>
-
-
-```bash
- $ git clone https://github.com/erginipekci7/api-flask  # First download repo
- $ cd api-flask                               # changed active directory to repo
- $ virtualenv venv                            # create virtual enviroment
- $ source venv/bin/activate                   # actived virtual environment
- (venv)$ pip install -r requirements.txt      # download requirement packages.
- (venv)$ python api.py                        # Run App.
- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-```
 
 
 # Kurulum - Test Api
