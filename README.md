@@ -3,8 +3,8 @@ Flask ile yazilan api-flask servisini test etmek icin olusturuldu.
 
 # Proje Yapisi
 
-[api.py](https://github.com/erginipekci7/api-flask) dosyasi api dir.<p> "api-test.py" ise api'yi test eden dosyadir. "empty.py" dosyasi ise suanlik isimize lazim degil.Ama ilerde lazim olucak kodlar.</p>
-<p>2 ayri flask uygulamamizi ayaga kaldiriyoruz("api.py" ve "api-test.py" dosyalari). Ve api-test flask uygulamamiza istek atilir.</p>
+[app.py](https://github.com/erginipekci7/api-flask) dosyasi api dir.<p> "api-test.py" ise api'yi test eden dosyadir. "empty.py" dosyasi ise suanlik isimize lazim degil.Ama ilerde lazim olucak kodlar.</p>
+<p>2 ayri flask uygulamamizi ayaga kaldiriyoruz("app.py" ve "api-test.py" dosyalari). Ve api-test flask uygulamamiza istek atilir.</p>
 
 # API - Routes 
 
@@ -28,7 +28,7 @@ Flask ile yazilan api-flask servisini test etmek icin olusturuldu.
  $ source venv/bin/active                     # actived virtual environment
  (venv)$ pip install -r requirements.txt      # download requirement packages.
  (venv)$ python api-test.py                   # Run App.
-* Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+* Running on https://gardrop-api-test.herokuapp.com
 ```
 
 # Test
