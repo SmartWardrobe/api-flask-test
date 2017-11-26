@@ -3,7 +3,7 @@ Flask ile yazilan api-flask servisini test etmek icin olusturuldu. Local'e kurma
 Ve otomatik master branch'i heroku'ya pushlaniyor. Bu proje ionic gibi davraniyor.
 
 # Proje Yapisi
-
+<h4>Burasi guncellenmeli, detayli bir sekilde bu reponun amacina anlatilmali.</h4>
 
 # Localde Kurulum - Test Api
 
