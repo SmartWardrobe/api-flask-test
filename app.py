@@ -2,7 +2,7 @@ from flask import Flask
 import requests
 import json
 
-# Bu kod Ionic gibi davranicak.
+# Bu kod Ionic gibi davranacak.
 
 app = Flask(__name__)
 
@@ -21,7 +21,7 @@ def create_user_with_api():
         "email": "tugce@tugce.com",
         "password": "123456"
     }
-    response = requests.post(url, data=json.dumps(data), headers=headers)   # Api'te istegi attigimiz yer.
+    response = requests.post(url, data=json.dumps(data), headers=headers)   # Api'de istegi attigimiz yer.
     responseJson = response.json()
     if responseJson["status"] == "okey":
         print("Status okey geldi.")
